@@ -12,7 +12,7 @@ See the above repository for updates as well as full license text. */
 
 :root{
   --multirow-n-rows: 16; /* change maximum number of rows before the rows will start to scroll */
-  --multirow-tab-min-width: 150px;
+  --multirow-tab-min-width: 200px;
   --multirow-tab-dynamic-width: 0; /* Change to 0 for fixed-width tabs using the above width. */
 }
 
@@ -22,6 +22,7 @@ See the above repository for updates as well as full license text. */
   max-height: none !important;
   height: calc((var(--tab-min-height) + 2 * var(--tab-block-margin, 0px)) * 2) !important;
   position: relative !important;
+  border-bottom: 5px solid black;
 }
 
 #tabbrowser-tabs:hover {
@@ -61,7 +62,7 @@ See the above repository for updates as well as full license text. */
 /* 使用伪元素来创建可滚动的空间 */
 scrollbox[part][orient="horizontal"] > slot::before,
 scrollbox[part][orient="horizontal"] > slot::after {
-    flex: 0 0 90% !important;
+    flex: 0 0 85% !important;
     content: '';
     display: flex;
     min-height: calc((var(--tab-min-height) + 2 * var(--tab-block-margin, 0px)) * var(--multirow-n-rows)/2) !important;
@@ -107,10 +108,23 @@ scrollbox[part][orient="horizontal"] > slot::after {
   #tabbrowser-arrowscrollbox{ -moz-window-dragging: no-drag }
 }
 
+/*  在地址栏输入"about:unloads" 就得到5个像素高度的 tabs group 分隔符 */
 .tabbrowser-tab[label="Tab Unloading"] {
     max-width: none !important;
     flex: 0 1 100% !important;
     max-height: none !important;
     height: 5px !important;
     background-color: black !important;
+}
+
+/* 将地址栏移动到底部 */
+#nav-bar {
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    z-index: 100 !important;
+}
+
+#browser {
+    margin-bottom: 30px; /* 调整此值以匹配地址栏的高度 */
 }
