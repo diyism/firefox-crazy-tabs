@@ -1,4 +1,4 @@
-# Simplest firefox multi-row tabs with tab-group seperator(type "about:unloads" get a 5px hight black line seperator):
+# The simplest firefox multi-row tabs with tab-group seperator(type "about:unloads" get a 5px hight black line seperator):
 
     in firefox open "about:config"      set     toolkit.legacyUserProfileCustomizations.stylesheets=true
     open "about:support"     Profile Directory  > Open Directory,    get <profile directory>
