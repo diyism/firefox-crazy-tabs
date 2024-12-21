@@ -26,6 +26,9 @@ mouse-over to show 16 rows of tabs, mouse-out to show only 2 rows
         Right click tab title > Add Tab to Group > New Group
     2. add the desired tab to the new built-in tabs-group
 
+# How to delete a black line seperator:
+    Click the thick black line and change the url from "about:unloads" to any other url
+
 # ref:
 [https://stackoverflow.com/questions/47361535/how-can-i-have-multiple-rows-with-tabs-on-firefox-57-add-on-tab-mix-plus-no](https://stackoverflow.com/questions/47361535/how-can-i-have-multiple-rows-with-tabs-on-firefox-57-add-on-tab-mix-plus-no)
 
