@@ -17,6 +17,9 @@ mouse-over to show 16 rows of tabs, mouse-out to show only 2 rows
     restart firefox:
     $ killall firefox-bin
 
+    get rid of annoying "ctrl+,"(sort tabs):
+    about:addon(Settings, Add-ons and themes)  > Extensions >  Gear Icon at right-top(Tools for all add-ons) > Manage Extension Shortcuts > Firefox Multi-Account Containers > Ctrl+Comma > Click Trash Bin icon
+
 # ref:
 [https://stackoverflow.com/questions/47361535/how-can-i-have-multiple-rows-with-tabs-on-firefox-57-add-on-tab-mix-plus-no](https://stackoverflow.com/questions/47361535/how-can-i-have-multiple-rows-with-tabs-on-firefox-57-add-on-tab-mix-plus-no)
 
