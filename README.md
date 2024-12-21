@@ -6,7 +6,9 @@ mouse-over to show 16 rows of tabs, mouse-out only show 2 rows
 ![](./scrot.png)
 
 # How to install:
-    in firefox open "about:config"      set     toolkit.legacyUserProfileCustomizations.stylesheets=true
+    in firefox open "about:config":
+    set     toolkit.legacyUserProfileCustomizations.stylesheets=true
+    set     userchrome.multirowtabs.scrollbar-handle.enabled=true
     open "about:support"     Profile Directory  > Open Directory,    get <profile directory>
     $ cd /home/<user>/.mozilla/firefox/<profile directory>
     $ mkdir ./chrome
