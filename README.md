@@ -16,3 +16,5 @@ mouse-over to show 16 rows of tabs, mouse-out to show only 2 rows
     copy https://github.com/diyism/firefox-multi-row-tabs-userchrome-css/blob/main/userChrome.css into <profile directory>
     restart firefox:
     $ killall firefox-bin
+
+# ref: https://stackoverflow.com/questions/47361535/how-can-i-have-multiple-rows-with-tabs-on-firefox-57-add-on-tab-mix-plus-no
