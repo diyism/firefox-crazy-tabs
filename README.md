@@ -21,6 +21,10 @@ mouse-over to show 16 rows of tabs, mouse-out to show only 2 rows
     about:addon(Settings, Add-ons and themes)  > Extensions >  Gear Icon at right-top(Tools for all add-ons)
     > Manage Extension Shortcuts > Firefox Multi-Account Containers > Ctrl+Comma > Click Trash Bin icon
 
+# How to move a tab from one tabs-group to another group:
+    1. add only the first tab of the target group into a new firefox built-in group: Add Tab to Group > New Group
+    2. add the desired tab to the new built-in tabs-group
+
 # ref:
 [https://stackoverflow.com/questions/47361535/how-can-i-have-multiple-rows-with-tabs-on-firefox-57-add-on-tab-mix-plus-no](https://stackoverflow.com/questions/47361535/how-can-i-have-multiple-rows-with-tabs-on-firefox-57-add-on-tab-mix-plus-no)
 
