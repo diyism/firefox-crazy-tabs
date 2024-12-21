@@ -22,7 +22,8 @@ mouse-over to show 16 rows of tabs, mouse-out to show only 2 rows
     > Manage Extension Shortcuts > Firefox Multi-Account Containers > Ctrl+Comma > Click Trash Bin icon
 
 # How to move a tab from one tabs-group to another group:
-    1. add only the first tab of the target group into a new firefox built-in group: Add Tab to Group > New Group
+    1. add only the first tab of the target group into a new firefox built-in group:
+        Right click tab title > Add Tab to Group > New Group
     2. add the desired tab to the new built-in tabs-group
 
 # ref:
