@@ -1,7 +1,7 @@
 # The simplest firefox multi-row tabs solution in the world:
 tab-group seperator, type "about:unloads" get a 5px hight black line seperator
 
-mouse-over to show 16 rows of tabs, mouse-out only show 2 rows
+mouse-over to show 16 rows of tabs, mouse-out to show only 2 rows
 
 ![](./scrot.png)
 
