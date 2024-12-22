@@ -37,7 +37,7 @@ It's way better than "Simple Tab Groups/Tree Style Tab/OneTab".
 # How to delete a group seperator(thick black line):
     Click the thick black line and change the url from "about:unloads" to any other url
 
-# How to move a tab leftward or rightward:
+# How to move a tab leftward or rightward in a group:
     Ctrl+Shift+PgUp, Ctrl+Shift+PgUp      on some slim keyboard:  Ctrl+Fn+Shift+Up,  Ctrl+Fn+Shift+Down
 
 # ref:
