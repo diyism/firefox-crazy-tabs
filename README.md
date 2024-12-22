@@ -38,7 +38,8 @@ I think it's way better than "Simple Tab Groups, Tree Style Tab, OneTab" which I
     Click the thick black line and change the url from "about:unloads" to any other url
 
 # How to move a tab leftward or rightward in a group:
-    Ctrl+Shift+PgUp, Ctrl+Shift+PgUp      on some slim keyboard:  Ctrl+Fn+Shift+Up,  Ctrl+Fn+Shift+Down
+    Ctrl+Shift+PgUp, Ctrl+Shift+PgUp
+    on my slim keyboard:  Ctrl+Fn+Shift+Up,  Ctrl+Fn+Shift+Down
 
 # ref:
 [https://stackoverflow.com/questions/47361535/how-can-i-have-multiple-rows-with-tabs-on-firefox-57-add-on-tab-mix-plus-no](https://stackoverflow.com/questions/47361535/how-can-i-have-multiple-rows-with-tabs-on-firefox-57-add-on-tab-mix-plus-no)
