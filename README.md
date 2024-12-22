@@ -10,6 +10,7 @@ mouse-over to show 16 rows of tabs, mouse-out to show only 2 rows
 
 # How to install:
     in firefox open "about:config":
+    set     browser.startup.page=3              (or Settings > General > Restore previous windows and tabs)
     set     toolkit.legacyUserProfileCustomizations.stylesheets=true
     set     userchrome.multirowtabs.scrollbar-handle.enabled=true
     open "about:support"     Profile Directory  > Open Directory,    get <profile directory>
