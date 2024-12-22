@@ -7,7 +7,7 @@ and right click the seperator and click "New Tab to right" to create the first t
 mouse-over to show 16 rows of tabs, mouse-out to show only 2 rows
 
 # Now my tabbar is a visable bookmark, a live bookmark, an effective bookmark!
-It's way better than "Simple Tab Groups/Tree Style Tab/OneTab".
+I think it's way better than "Simple Tab Groups, Tree Style Tab, OneTab" which I used before.
 
 # Look at my crazy 1300 tabs in groups:
 ![](./scrot.png)
