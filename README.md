@@ -36,7 +36,8 @@ mouse-over to show 16 rows of tabs, mouse-out to show only 2 rows
 # How to move a tab leftward or rightward:
     Ctrl+Shift+PgUp, Ctrl+Shift+PgUp      on some slim keyboard:  Ctrl+Fn+Shift+Up,  Ctrl+Fn+Shift+Down
 
-# Now your tabsbar is a visable bookmark, an effective bookmark! It's way better than "Simple Tab Groups/Tree Style Tab/OneTab".
+# Now your tabsbar is a visable bookmark, an effective bookmark!
+# It's way better than "Simple Tab Groups/Tree Style Tab/OneTab".
 
 # ref:
 [https://stackoverflow.com/questions/47361535/how-can-i-have-multiple-rows-with-tabs-on-firefox-57-add-on-tab-mix-plus-no](https://stackoverflow.com/questions/47361535/how-can-i-have-multiple-rows-with-tabs-on-firefox-57-add-on-tab-mix-plus-no)
