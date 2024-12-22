@@ -1,5 +1,5 @@
 # The simplest firefox multi-row tabs solution in the world:
-How to create a tab-group seperator:
+How to create a tab-group seperator(thick black line):
 
 type "about:unloads" into the address bar to get a 5px hight black line seperator,
 and right click the seperator and click "New Tab to right" to create the first tab in the group
