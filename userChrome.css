@@ -133,3 +133,8 @@ tab[selected="true"]:before {
   z-index: 1 !important;
   width: 5000px;
 }
+.tab-background {
+  &:is([selected]) {
+    background-color: lightgreen !important;
+  }
+}
