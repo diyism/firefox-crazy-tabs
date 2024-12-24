@@ -14,6 +14,7 @@ See the above repository for updates as well as full license text. */
 
 :root{
   --multirow-n-rows: 16; /* change maximum number of rows before the rows will start to scroll */
+  --multirow-n-rows-2: 14;
   --multirow-tab-min-width: 200px;
   --multirow-tab-dynamic-width: 0; /* Change to 0 for fixed-width tabs using the above width. */
 }
@@ -53,21 +54,12 @@ See the above repository for updates as well as full license text. */
   }
 }
 
-#tabbrowser-arrowscrollbox{
-  position: absolute !important;
-  top: 50%; /* 让其顶端到父容器顶部的距离为高度的 50% */
-  transform: translateY(-50%); /* 偏移自身高度的一半，完成垂直居中 */
-  width: 100%; /* 或根据需求设置具体值 */
-  height: auto; /* 确保内容显示 */
-}
-
 /* 使用伪元素来创建可滚动的空间 */
-scrollbox[part][orient="horizontal"] > slot::before,
 scrollbox[part][orient="horizontal"] > slot::after {
     flex: 0 0 85% !important;
     content: '';
     display: flex;
-    min-height: calc((var(--tab-min-height) + 2 * var(--tab-block-margin, 0px)) * var(--multirow-n-rows)/2) !important;
+    min-height: calc((var(--tab-min-height) + 2 * var(--tab-block-margin, 0px)) * (var(--multirow-n-rows) - 2)) !important;
 }
 
 .scrollbox-clip[orient="horizontal"],
@@ -129,4 +121,16 @@ scrollbox[part][orient="horizontal"] > slot::after {
 }
 #browser {
     margin-bottom: 50px; /* 调整此值以匹配地址栏的高度 */
+}
+
+/*让选中的tab所在行 突出显示*/
+tab[selected="true"] {overflow:visible !important;}
+tab[selected="true"]:before {
+  content: "";
+  position: absolute;
+  left: -2000px;
+  height: 10px;
+  background-color: lightgreen;
+  z-index: 1 !important;
+  width: 5000px;
 }
