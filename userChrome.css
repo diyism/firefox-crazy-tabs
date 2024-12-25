@@ -47,7 +47,7 @@ See the above repository for updates as well as full license text. */
     scrollbar-width: auto;
     scrollbar-gutter: stable;
     scroll-snap-type: y mandatory;
-    /* 允许获得焦点, 点击标签栏空白区域后需要再按一次tab键, 然后才能用键盘滚动整个标签栏了 */
+    /* 允许获得焦点, 点击标签栏空白区域后需要再按一次tab键, 点击标签后也需要再按一次tab键, 然后才能用键盘滚动整个标签栏了 */
     -moz-user-focus: normal !important;
   }
   scrollbox[part][orient="horizontal"] > slot{
