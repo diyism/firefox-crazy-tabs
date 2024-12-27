@@ -2,13 +2,13 @@
 Look at my crazy 1300 tabs in groups (mouse-over to show 16 rows of tabs, mouse-out to show only 2 rows):
 ![](./scrot.png)
 
-How to create a tab-group seperator(thick black line):
+# Now my tabs bar is a visible/live/intuitive bookmarks bar, an effective bookmarks bar!
+I think it's way better than "Simple Tab Groups, Tree Style Tab, OneTab" which I used before.
+
+# How to create a tab-group seperator(thick black line):
 
 type "about:unloads" into the address bar to get a 5px hight black line seperator,
 and right click the seperator and click "New Tab to right" to create the first tab in the group
-
-# Now my tabs bar is a visible/live/intuitive bookmarks bar, an effective bookmarks bar!
-I think it's way better than "Simple Tab Groups, Tree Style Tab, OneTab" which I used before.
 
 # How to install:
     in firefox open "about:config":
