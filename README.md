@@ -41,6 +41,10 @@ I think it's way better than "Simple Tab Groups, Tree Style Tab, OneTab" which I
     Ctrl+Shift+PgUp, Ctrl+Shift+PgUp
     on my slim keyboard:  Ctrl+Fn+Shift+Up,  Ctrl+Fn+Shift+Down
 
+# How to scroll tab groups:
+    1.With the mouse middle button or with the touch pad two fingers swipe up-down;
+    2.With the keyboard up-arrow / down-arrow keys: 1.click the tabs bar empty area(at rightside), 2. type the keyboard "tab" key, 3. press up-arrow key or down-arrow key
+
 # ref:
 [https://stackoverflow.com/questions/47361535/how-can-i-have-multiple-rows-with-tabs-on-firefox-57-add-on-tab-mix-plus-no](https://stackoverflow.com/questions/47361535/how-can-i-have-multiple-rows-with-tabs-on-firefox-57-add-on-tab-mix-plus-no)
 
