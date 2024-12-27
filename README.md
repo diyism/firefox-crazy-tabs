@@ -10,6 +10,7 @@ I think it's way better than "Simple Tab Groups, Tree Style Tab, OneTab" which I
     set     browser.startup.page=3              (or Settings > General > Restore previous windows and tabs)
     set     toolkit.legacyUserProfileCustomizations.stylesheets=true
     set     userchrome.multirowtabs.scrollbar-handle.enabled=true
+
     open "about:support"     Profile Directory  > Open Directory,    get <profile directory>
     $ cd /home/<user>/.mozilla/firefox/<profile directory>
     $ mkdir ./chrome
