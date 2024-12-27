@@ -24,7 +24,6 @@ See the above repository for updates as well as full license text. */
   max-height: none !important;
   height: calc((var(--tab-min-height) + 2 * var(--tab-block-margin, 0px)) * 2) !important;
   position: relative !important;
-  border-bottom: 5px solid black;
 }
 
 #tabbrowser-tabs:hover,#tabbrowser-tabs:active {
@@ -112,16 +111,16 @@ scrollbox[part][orient="horizontal"] > slot::after {
     background-color: black !important;
 }
 
-/* 将地址栏移动到底部 */
-#nav-bar {
+/* 将地址栏移动到顶部 */
+*#nav-bar {
     position: fixed !important;
-    bottom: 0 !important;
+    top: 0 !important;
     width: 100% !important;
     z-index: 100 !important;
-    border-top: 5px solid green !important;
 }
-#browser {
-    margin-bottom: 50px; /* 调整此值以匹配地址栏的高度 */
+#navigator-toolbox {
+    margin-top: calc(var(--tab-min-height) + 2 * var(--tab-block-margin,0px)); /* 调整此值以匹配地址栏的高度 */
+    border: 3px solid green !important;
 }
 
 /*让选中的tab所在行 突出显示*/
