@@ -20,6 +20,9 @@ I think it's way better than "Simple Tab Groups, Tree Style Tab, OneTab" which I
     restart firefox:
     $ killall firefox-bin
 
+    if you want to uninstall firefox-crazy-tabs, just remove /home/<user>/.mozilla/firefox/<profile directory>/chrome/userChrome.css,
+    and restart firefox, so everything will been restored
+
     if you have Multi-Account Containers addon, get rid of annoying "ctrl+," shortcut(sorting container tabs):
     about:addon(Settings, Add-ons and themes)  > Extensions >  Gear Icon at right-top(Tools for all add-ons)
     > Manage Extension Shortcuts > Firefox Multi-Account Containers > Ctrl+Comma > Click Trash Bin icon
