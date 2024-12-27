@@ -1,4 +1,7 @@
 # The simplest firefox multi-row tab groups solution in the world:
+Look at my crazy 1300 tabs in groups:
+![](./scrot.png)
+
 How to create a tab-group seperator(thick black line):
 
 type "about:unloads" into the address bar to get a 5px hight black line seperator,
@@ -8,9 +11,6 @@ mouse-over to show 16 rows of tabs, mouse-out to show only 2 rows
 
 # Now my tabs bar is a visible/live/intuitive bookmarks bar, an effective bookmarks bar!
 I think it's way better than "Simple Tab Groups, Tree Style Tab, OneTab" which I used before.
-
-# Look at my crazy 1300 tabs in groups:
-![](./scrot.png)
 
 # How to install:
     in firefox open "about:config":
