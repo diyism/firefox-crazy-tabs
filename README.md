@@ -15,7 +15,8 @@ I think it's way better than "Simple Tab Groups, Tree Style Tab, OneTab" which I
     $ cd /home/<user>/.mozilla/firefox/<profile directory>
     $ mkdir ./chrome
     $ sublime ./chrome/userChrome.css
-    copy https://github.com/diyism/firefox-multi-row-tabs-userchrome-css/blob/main/userChrome.css into <profile directory>
+    $ wget https://github.com/diyism/firefox-multi-row-tabs-userchrome-css/blob/main/userChrome.css
+    $ cp userChrome.css /home/<user>/.mozilla/firefox/<profile directory>/chrome/
     restart firefox:
     $ killall firefox-bin
 
