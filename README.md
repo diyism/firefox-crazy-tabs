@@ -5,11 +5,6 @@ Look at my crazy 1300 tabs in groups (mouse-over to show 16 rows of tabs, mouse-
 # Now my tabs bar is a visible/live/intuitive bookmarks bar, an effective bookmarks bar!
 I think it's way better than "Simple Tab Groups, Tree Style Tab, OneTab" which I used before.
 
-# How to create a tab-group seperator(thick black line):
-
-type "about:unloads" into the address bar to get a 5px hight black line seperator,
-and right click the seperator and click "New Tab to right" to create the first tab in the group
-
 # How to install:
     in firefox open "about:config":
     set     browser.startup.page=3              (or Settings > General > Restore previous windows and tabs)
@@ -26,6 +21,11 @@ and right click the seperator and click "New Tab to right" to create the first t
     get rid of annoying "ctrl+," shortcut(sorting container tabs):
     about:addon(Settings, Add-ons and themes)  > Extensions >  Gear Icon at right-top(Tools for all add-ons)
     > Manage Extension Shortcuts > Firefox Multi-Account Containers > Ctrl+Comma > Click Trash Bin icon
+
+# How to create a tab-group seperator(thick black line):
+
+type "about:unloads" into the address bar to get a 5px hight black line seperator,
+and right click the seperator and click "New Tab to right" to create the first tab in the group
 
 # How to move a tab from one tabs-group to another group:
     1. add only the first tab of the target group into a new firefox built-in group:
