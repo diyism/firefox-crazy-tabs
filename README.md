@@ -1,4 +1,4 @@
-# The simplest firefox multi-row tabs solution in the world:
+# The simplest firefox multi-row tab groups solution in the world:
 How to create a tab-group seperator(thick black line):
 
 type "about:unloads" into the address bar to get a 5px hight black line seperator,
